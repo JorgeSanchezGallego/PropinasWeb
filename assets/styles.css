@@ -1,0 +1,141 @@
+:root {
+  --primary-color: #ffffff;
+  --bg-color: #20202093;
+  --spacing: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+}
+body {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+      margin: auto;
+      
+      
+      
+    }
+    a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  height: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+  position: fixed;
+  width: 100%;
+  background-color: var(--bg-color);
+  animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: var(--bg-color);
+  }
+}
+
+header img {
+  height: 80px;
+  width: auto;
+}
+
+header ul {
+  display: flex;
+  
+  width: 240px;
+}
+
+header a {
+  text-transform: uppercase;
+}
+
+
+
+header nav {
+  display: flex;
+}
+
+header span {
+  width: 240px;
+  font-size: 40px;
+}
+
+.banner img{
+  height: 100vh;
+}
+
+@media (max-width: 900px) {
+ 
+
+  header nav {
+    display: none;
+  }
+}
+.banner img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media (max-width: 600px) {
+  .banner img {
+    height: 100vh;
+    object-fit: cover;
+  }
+  .logo img{
+    height: 50px;
+  }
+}
+
+
+.propinas {
+  
+  
+  display: flex;        /* Activamos Flexbox */
+  flex-direction: column; /* Ponemos los items en columna */
+  gap: 10px;            /* Espacio entre los textos */
+  align-items: center; /* Alineación horizontal (opcional: start, center, end) */
+  justify-content: center; /* Alineación vertical (opcional: start, center, end, space-between) */
+
+}
+
+
+
+
+
+    input, button {
+      margin: 5px 0;
+      padding: 8px;
+      width: 70%;
+      border-radius: 30px;
+    }
+    button{
+        width: 30%;
+        
+        
+    }
+    .resultado {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f0f0f0;
+      width: 70%;
+    }
+
+
+    

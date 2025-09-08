@@ -3,11 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles.css">
+     <script src="assets/script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
-    <h1>Reparto de propinas</h1>
+ <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#null">Propinas</a>
+          </li>
+         
+        </ul>
+      </nav>
+      
+      <a href="https://www.sohoalicante.com/" target="_blank" class="logo">
+        <img
+          src="assets/img/gsb_logo_moderno_opcion3_blanco.svg" 
+          alt="Soho Baviera Logo"/>
+      </a>
+      <a href="https://jorgesanchez.vercel.app/" target="_blank" class="logo-personal">
+        <img
+          src="assets/img/logo-transparent.png"
+          alt="Jorge Sánchez Logo"/>
+      </a>
+      
+    </header>
+    <section class="banner">
+        <img src="assets/img/IMG_3358.jpg" alt="Gómiz cover"/>
+    </section>
+
+
+    <section class="propinas">
+  <h1>Reparto de propinas</h1>
   <p>Bote total:</p>
   <input type="number" id="boteTotal" placeholder="Ej: 150.00">
 
@@ -21,6 +50,6 @@
   <button onclick="calcular()">Calcular Reparto</button>
 
   <div id="resultado" class="resultado"></div>
-  <script src="script.js"></script>
+ </section>
 </body>
 </html>
