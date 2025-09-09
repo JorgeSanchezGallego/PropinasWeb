@@ -47,6 +47,12 @@ let personal = {};
       }
 
       document.getElementById("resultado").innerHTML = salida;
+      
+  const resultadoDiv = document.getElementById("resultado");
+  resultadoDiv.innerHTML = salida;
+
+  // 👉 aquí le añades la clase extra
+  resultadoDiv.classList.add("resultadoImagen");
     }
 
     const consentBox = document.getElementById("consentBox");

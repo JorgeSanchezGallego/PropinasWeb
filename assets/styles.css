@@ -108,35 +108,82 @@ header span {
 
 .propinas {
   
-  
+  padding-top: 20px;
   display: flex;        /* Activamos Flexbox */
   flex-direction: column; /* Ponemos los items en columna */
   gap: 10px;            /* Espacio entre los textos */
   align-items: center; /* Alineación horizontal (opcional: start, center, end) */
   justify-content: center; /* Alineación vertical (opcional: start, center, end, space-between) */
+  padding-bottom: 30px;
+}
 
+
+
+
+button {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 7px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #585858;
+  color: #fff;
+  background: transparent;
+  z-index: 0;
+}
+button:hover:after {
+  top: 0;
+  left: 0;
+}
+button:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #343a40;
 }
 
 
 
 
 
-    input, button {
-      margin: 5px 0;
-      padding: 8px;
-      width: 70%;
+    input {
+      margin: 5px 0px;
+      padding: 10px;
+      width: 100px;
       border-radius: 30px;
     }
     button{
-        width: 30%;
+        width: 100px;
         
         
     }
     .resultado {
-      margin-top: 20px;
-      padding: 10px;
-      background-color: #f0f0f0;
-      width: 70%;
+      color: #f0f0f0;
+      padding: 20px ;
+      
+      
+    }
+
+    .resultadoImagen{
+      width: 310px;
+      background-image: url(img/WhatsApp\ Image\ 2025-09-08\ at\ 09.04.10.jpeg);
+     background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.24);
+    background-blend-mode: multiply;
+    border-radius: 20%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
+    text-shadow: #111211;
     }
 
 
