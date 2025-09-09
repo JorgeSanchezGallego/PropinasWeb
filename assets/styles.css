@@ -120,7 +120,7 @@ header span {
 
 
 
-button {
+.buttonfirst {
   min-width: 130px;
   height: 40px;
   color: #fff;
@@ -136,11 +136,11 @@ button {
   background: transparent;
   z-index: 0;
 }
-button:hover:after {
+.buttonfirst:hover:after {
   top: 0;
   left: 0;
 }
-button:after {
+.buttonfirst:after {
   content: "";
   width: 100%;
   z-index: -1;
@@ -162,7 +162,7 @@ button:after {
       width: 100px;
       border-radius: 30px;
     }
-    button{
+    .buttonfirst{
         width: 100px;
         
         
@@ -231,6 +231,8 @@ button:after {
    align-items: center;
    justify-content: center;
    margin-top: 20px;
+   
+   
 }
 
 .consentButton,
