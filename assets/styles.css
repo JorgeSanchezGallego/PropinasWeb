@@ -170,6 +170,7 @@ button:after {
     .resultado {
       color: #f0f0f0;
       padding: 20px ;
+      margin-top: 20px;
       
       
     }
@@ -184,6 +185,7 @@ button:after {
     border-radius: 20%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5.5);
     text-shadow: #111211;
+    
     }
 
 
